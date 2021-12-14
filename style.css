@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+}
+.mai-color{
+    background-color: rgb(228, 65, 92);
+}
+.none{
+    display: none;
+}
+.side-bar{
+    height: 50rem;
+}
+.icons{
+    background-color: rgb(241, 163, 176);
+    height: 3rem;
+    width: 3rem;
+    padding: 12px;
+    font-size: 24px !important;
+    color: rgb(228, 65, 92);
+}
+.navbar-toggler{
+    display: none;
+}
+.input-slect{
+    width: 30%;
+}
+.travels{
+    width: 100%;
+}
+.wid-50{
+    width: 100%;
+}
+.opacity{
+    opacity: 0.6;
+}
+.red{
+    background-color: red;
+}
+
+@media (max-width:992px) and (min-width:768px){
+    
+.container-fluid{
+    width: 100 !important;
+}
+
+    
+}
+@media (max-width:767px){
+    .none{
+        display: block;
+    }
+    .navbar-toggler{
+        display: block;
+    }
+    .icons{
+        display: none;
+    }
+    .side-bar{
+        display: none;
+    }
+    .icons{
+        display: none !important;
+    }
+    .mob-block{
+        display: block !important;
+    }
+    .input-slect{
+        width: 100%;
+    }
+    .wid-100{
+        width: 100% !important;
+    }
+    
+    
+}
