@@ -8,11 +8,14 @@ body{
 .mai-color{
     background-color: rgb(228, 65, 92);
 }
+.bg-col{
+    background-color: rgb(250, 220, 225);
+}
 .none{
     display: none;
 }
 .side-bar{
-    height: 50rem;
+    height: 55rem;
 }
 .icons{
     background-color: rgb(241, 163, 176);
@@ -35,10 +38,13 @@ body{
     width: 100%;
 }
 .opacity{
-    opacity: 0.6;
+    opacity: 0.8;
 }
 .red{
     background-color: red;
+}
+.over-scroll{
+    overflow-x: scroll;
 }
 
 @media (max-width:992px) and (min-width:768px){
@@ -74,6 +80,7 @@ body{
     .wid-100{
         width: 100% !important;
     }
+
     
     
 }
