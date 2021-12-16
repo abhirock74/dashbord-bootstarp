@@ -8,6 +8,20 @@ body{
 .mai-color{
     background-color: rgb(228, 65, 92);
 }
+.thr-box{
+    border: 1px solid rgb(228, 65, 92);
+}
+.box-line{
+    background-color: rgb(255, 37, 73);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.base{
+    height: 15px;
+}
+.main-text{
+    color: rgb(228, 65, 92);
+}
 .bg-col{
     background-color: rgb(250, 220, 225);
 }
@@ -52,8 +66,42 @@ body{
 .circle{
     width: 4rem;
     height: 4rem;
-    border: 0.5rem solid pink;
+    border: 0.5rem solid rgb(228, 65, 92);
     border-radius: 9rem;
+}
+.color-box{
+    width: 50%;
+}
+.bog-circle{
+    height: 15rem;
+    width: 15rem;
+    border: 0.9rem solid red;
+    border-radius: 100%;
+    position: relative;
+}
+.under-circle{
+    height: 12.5rem;
+    width: 12.5rem;
+    border: 0.2rem solid rgba(112, 136, 138, 0.644);
+    border-radius: 100%;
+    position: relative;
+    margin: 4px 2px 4px 5px;
+}
+.box{
+    height: 2rem;
+    width: 2rem;
+    background-color: purple;
+}
+.calculator{
+    width: 100%;
+}
+.date{
+    width: 4rem;
+    height: 2.5rem;
+    padding-top: 4px;
+}
+.hide{
+    opacity: 0.5;
 }
 
 @media (max-width:992px) and (min-width:768px){
