@@ -24,6 +24,7 @@ body{
 }
 .bg-col{
     background-color: rgb(250, 220, 225);
+    width: 100vmax;
 }
 .none{
     display: none;
@@ -108,9 +109,7 @@ body{
     
 .container-fluid{
     width: 100 !important;
-}
-
-    
+}   
 }
 @media (max-width:767px){
     .none{
@@ -135,7 +134,14 @@ body{
         width: 100%;
     }
     .wid-100{
-        width: 100% !important;
+        width: 100vw !important;
+    }
+    .wid-95{
+        width: 95% !important;
+        margin-bottom: 10px;
+    }
+    .bg-col{
+        width: 180vmax !important;
     }
 
     
