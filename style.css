@@ -70,6 +70,18 @@ body{
     border: 0.5rem solid rgb(228, 65, 92);
     border-radius: 9rem;
 }
+.b50{
+    border-bottom-color: rgba(139, 134, 134, 0.37);
+    border-left-color: rgba(139, 134, 134, 0.37);
+}
+.b25{
+    border-bottom-color: rgba(139, 134, 134, 0.37);
+    border-left-color: rgba(139, 134, 134, 0.37);
+    border-right-color: rgba(139, 134, 134, 0.37);
+}
+.b75{
+    border-left-color: rgba(139, 134, 134, 0.37);
+}
 .color-box{
     width: 50%;
 }
