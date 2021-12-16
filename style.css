@@ -76,9 +76,27 @@ body{
 .bog-circle{
     height: 15rem;
     width: 15rem;
-    border: 0.9rem solid red;
+    border: 0.9rem solid;
+    border-bottom-color: greenyellow;
+    border-top-color: rgb(189, 23, 51);
+    border-left-color: red;
+    border-right-color: blue;
     border-radius: 100%;
     position: relative;
+    animation-name: big-box;
+    animation-duration: 4s;
+}
+.top1{
+    background-color: rgb(189, 23, 51);
+}
+.top2{
+    background-color: greenyellow;
+}
+.top3{
+    background-color: red;
+}
+.top4{
+    background-color: blue;
 }
 .under-circle{
     height: 12.5rem;
@@ -91,7 +109,6 @@ body{
 .box{
     height: 2rem;
     width: 2rem;
-    background-color: purple;
 }
 .calculator{
     width: 100%;
@@ -104,6 +121,8 @@ body{
 .hide{
     opacity: 0.5;
 }
+
+
 
 @media (max-width:992px) and (min-width:768px){
     
@@ -141,9 +160,17 @@ body{
         margin-bottom: 10px;
     }
     .bg-col{
-        width: 180vmax !important;
+        width: 150vmax !important;
     }
-
-    
-    
+    .margin{
+        margin-top: 20px;
+    }
+}
+@media (width:360px){
+    .mar-left{
+        margin-left: 2rem !important;
+    }
+    .mar-box{
+        margin-left: -6px !important;
+    }
 }
