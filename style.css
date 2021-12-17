@@ -24,7 +24,6 @@ body{
 }
 .bg-col{
     background-color: rgb(250, 220, 225);
-    width: 100vmax;
 }
 .none{
     display: none;
@@ -84,6 +83,10 @@ body{
 }
 .color-box{
     width: 50%;
+}
+.mar-tex{
+    margin-left: 0.7rem;
+    margin-top: 0.9rem;
 }
 .bog-circle{
     height: 15rem;
@@ -172,7 +175,7 @@ body{
         margin-bottom: 10px;
     }
     .bg-col{
-        width: 150vmax !important;
+        width: 235vw;
     }
     .margin{
         margin-top: 20px;
